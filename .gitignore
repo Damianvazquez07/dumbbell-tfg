@@ -117,3 +117,31 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
+# --- FLUTTER & DART ---
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+ios/Runner.xcworkspace
+ios/Runner.xcuserdata/
+
+# --- KOTLIN & GRADLE (BACKEND) ---
+.gradle/
+build/
+out/
+target/
+*.class
+
+# --- IDEs & EDITORES ---
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# --- ARCHIVOS TEMPORALES Y DE ENTORNO ---
+.DS_Store
+Thumbs.db
+*.log
+.env
